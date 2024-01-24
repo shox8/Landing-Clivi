@@ -1,0 +1,535 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #120a17;
+}
+
+.logo {
+  transform: scale(0.8);
+}
+
+.navLink {
+  margin-left: -50px;
+  margin-right: 30px;
+  font-family: Russo One;
+}
+
+.navLinker {
+  font-family: Russo One;
+}
+
+.btns {
+  padding: 0 50px;
+  transform: translateY(-30px);
+}
+
+.login,
+.login:hover {
+  width: 130px;
+  height: 45px;
+  border: 1px solid #32253b;
+}
+
+.signup,
+.signup:hover {
+  width: 130px;
+  height: 45px;
+  background: #32253b;
+}
+
+.home .title {
+  font-size: 70px;
+  padding: 10px 15%;
+  font-family: Russo One;
+}
+
+.home .text {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: 0em;
+  padding: 10px 20%;
+  color: #686868;
+}
+
+.home .btn {
+  padding: 20px 50px;
+  font-size: 25px;
+  background: linear-gradient(0deg, #32253b, #32253b),
+    linear-gradient(0deg, rgba(140, 77, 228, 0.15), rgba(140, 77, 228, 0.15));
+  border: 1px solid #32253b;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.home .btn img {
+  margin-right: 10px;
+}
+
+.home .first {
+  top: 15%;
+  left: 2%;
+  width: 200px;
+}
+.home .second {
+  top: 15%;
+  right: 2%;
+  width: 200px;
+}
+.home .third {
+  bottom: -5%;
+  left: 20%;
+  width: 150px;
+}
+.home .fourth {
+  bottom: -5%;
+  right: 20%;
+  width: 150px;
+}
+
+.stores {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #74fbfb;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.stores img {
+  margin: 15px 10px;
+}
+
+.steps {
+  padding: 50px;
+}
+
+.steps .btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.steps .btn img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.steps .btns button {
+  height: 50px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.steps .headText {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.steps a {
+  color: #74fbfb;
+  font-family: Russo One;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+
+.steps .step {
+  margin-top: 40px;
+}
+
+.steps .step p {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+.steps h1 {
+  font-family: Russo One;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.steps .btns {
+  margin-top: 100px;
+}
+
+.steps .btns button:nth-child(1) {
+  border: 1px solid #74fbfb;
+  background: #74fbfb26;
+}
+
+.steps .btns button:nth-child(2) {
+  border: 1px solid #8f8f8f;
+  background: #8c4de41a;
+}
+
+.steps .btns button:nth-child(3) {
+  border: 1px solid #8f8f8f;
+  background: #8c4de41a;
+}
+
+.steps .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  color: white;
+}
+
+.steps .links p {
+  font-family: Russo One;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.steps .links p:nth-child(1) {
+  color: #74fbfb;
+  text-decoration: underline;
+}
+
+.steps .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 40px;
+  gap: 30px;
+}
+
+.steps .cards .box {
+  width: 204px;
+  height: 194px;
+  border-radius: 10px;
+  color: transparent;
+}
+
+.steps .cards .box .image {
+  width: 200px;
+  height: 170px;
+  border-radius: 10px;
+  background: #22172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps .cards .box p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.steps .cards .box:nth-child(1) .image {
+  background: #32253b;
+}
+
+.steps .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.steps .pagination div {
+  border: 1px solid #32253b;
+  color: white;
+  width: 45px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  display: grid;
+  place-items: center;
+}
+
+.steps .pagination button {
+  background: #32253b;
+  color: white;
+}
+
+.editor .header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15%;
+  font-family: Russo One;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+
+.editor .header img:nth-child(2) {
+  margin-top: -100px;
+  width: 150px;
+}
+
+.editor .first-tool {
+  width: 60px;
+  border-radius: 60px;
+  background: #22172a;
+  border: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 0;
+  margin: 10px 50px;
+  position: relative;
+}
+
+.editor .first-tool::before {
+  content: ">";
+  position: absolute;
+  right: -10px;
+  width: 10px;
+  height: 90px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #22172a;
+  border: 1px solid #ffffff;
+}
+
+.editor .first-tool img {
+  width: 80%;
+}
+
+.editor .second-tool {
+  width: 100px;
+  background: #25242380;
+  border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  margin-right: 50px;
+}
+
+.editor .second-tool h2 {
+  font-family: Russo One;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.editor .second-tool img {
+  width: 45px;
+  height: 45px;
+  background: #232628;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.tabs .img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form {
+  border: 1px solid #fff5f5;
+  width: 50%;
+  height: 45px;
+  margin: 30px 0;
+  border-radius: 10px;
+}
+
+.form input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: white;
+}
+
+.form button {
+  background: #8c4de4;
+  width: 140px;
+  height: 100%;
+  color: white;
+  border-radius: 10px;
+}
+
+.btns {
+  gap: 40px;
+  margin-top: 70px;
+}
+
+.btns button {
+  font-family: Russo One;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btns button:nth-child(1) {
+  background: #511e74;
+  color: white;
+}
+
+.btns button:nth-child(2) {
+  background: #1b161d;
+  color: white;
+}
+
+.line {
+  gap: 20px;
+  padding: 0 50px;
+}
+
+.line kbd {
+  background: #32253b;
+}
+
+.faq {
+  padding: 0 50px;
+}
+
+.faq h1 {
+  font-family: Russo One;
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.faq .box {
+  width: 100%;
+  background: #22172a;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px 0;
+}
+
+.faq .box h2 {
+  font-family: Russo One;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.faq .box p {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #d9d9d9;
+  margin: 0;
+}
+
+hr {
+  border: 1px solid #d9d9d9;
+}
+
+.footer .column h1 {
+  font-family: Russo One;
+  font-size: 40px;
+  font-weight: 400;
+  color: #d9d9d9;
+}
+
+.footer .column p {
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  color: #c2c2c2;
+}
+
+@media screen and (max-width: 750px) {
+  nav div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+   .btns {
+    padding: 0px;
+    margin-right: 50px;
+  }
+  .home .title {
+    font-size: 30px;
+  }
+  .home .first {
+    top: 38%;
+    left: -2%;
+    width: 150px;
+  }
+  .home .second {
+    top: 38%;
+    right: 2%;
+    width: 150px;
+  }
+  .home .third {
+    bottom: -25%;
+    left: 10%;
+    width: 100px;
+  }
+  .home .fourth {
+    bottom: -25%;
+    right: 10%;
+    width: 100px;
+  }
+  .navLink {
+    margin: 0;
+  }
+  .steps .cards {
+    justify-content: center;
+  }
+  .editor .header {
+    gap: 15px;
+  }
+  .editor .line {
+    flex-wrap: wrap;
+  }
+  .editor .first-tool {
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .editor .first-tool img {
+    width: 40px;
+  }
+  .editor .first-tool::before {
+    display: none;
+  }
+  .editor .mainImg {
+    width: 100%;
+  }
+  .editor .second-tool {
+    width: 100%;
+    height: 90px;
+    flex-direction: row;
+    margin: 20px auto;
+  }
+  .footer .columns {
+    flex-wrap: wrap;
+  }
+  .footer .column {
+    width: 80%;
+  }
+}
