@@ -465,7 +465,10 @@ hr {
     justify-content: center;
     text-align: center;
   }
-   .btns {
+  nav img {
+    width: 150px;
+  }
+  .btns {
     padding: 0px;
     margin-right: 50px;
   }
@@ -494,6 +497,15 @@ hr {
   }
   .navLink {
     margin: 0;
+  }
+  .faq {
+    padding: 0 20px;
+  }
+  .faq .box h2 {
+    font-size: 24px;
+  }
+  .faq .box p {
+    font-size: 18px;
   }
   .steps .cards {
     justify-content: center;
@@ -525,6 +537,8 @@ hr {
     height: 90px;
     flex-direction: row;
     margin: 20px auto;
+    justify-content: space-around;
+    padding: 0 20px;
   }
   .footer .columns {
     flex-wrap: wrap;
@@ -532,5 +546,32 @@ hr {
   }
   .footer .column {
     width: 100% !important;
+  }
+  .steps .btns {
+    margin: 20px auto;
+    margin-top: 50px;
+  }
+  * {
+    text-align: center;
+  }
+  .editor .header {
+    align-items: center;
+  }
+  .editor .header img:nth-child(2) {
+    margin-top: 0px;
+  }
+  .editor .btns,
+  .editor .line {
+    margin: auto;
+    justify-content: center;
+  }
+  .footer .columns .column .socials {
+    justify-content: center;
+  }
+  .steps .step p {
+    font-size: 18px;
+  }
+  .steps .step h1 {
+    font-size: 24px;
   }
 }
