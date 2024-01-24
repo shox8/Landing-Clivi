@@ -528,8 +528,9 @@ hr {
   }
   .footer .columns {
     flex-wrap: wrap;
+    gap: 20px;
   }
   .footer .column {
-    width: 80%;
+    width: 100% !important;
   }
 }
