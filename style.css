@@ -458,45 +458,39 @@ hr {
 }
 
 @media screen and (max-width: 750px) {
+  nav {
+    flex-wrap: wrap;
+  }
   nav div {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    margin: auto;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 0;
+    padding: 0;
+    transform: translateY(0px);
   }
-  nav img {
-    width: 150px;
+  nav .btns {
+    margin: 30px auto;
+  }
+  nav .logo {
+    width: 120px;
   }
   .btns {
     padding: 0px;
     margin-right: 50px;
   }
+  .home .image {
+    display: none;
+  }
   .home .title {
-    font-size: 30px;
-  }
-  .home .first {
-    top: 38%;
-    left: -2%;
-    width: 150px;
-  }
-  .home .second {
-    top: 38%;
-    right: 2%;
-    width: 150px;
-  }
-  .home .third {
-    bottom: -25%;
-    left: 10%;
-    width: 100px;
-  }
-  .home .fourth {
-    bottom: -25%;
-    right: 10%;
-    width: 100px;
+    font-size: 40px;
   }
   .navLink {
     margin: 0;
+  }
+  .editor .header img:nth-child(2) {
+    transform: scale(0.5) translateY(-10px);
   }
   .faq {
     padding: 0 20px;
